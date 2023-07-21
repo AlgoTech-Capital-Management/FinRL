@@ -21,7 +21,7 @@ import psutil
 
 psutil_memory_in_bytes = psutil.virtual_memory().total
 ray._private.utils.get_system_memory = lambda: psutil_memory_in_bytes
-from typing import Dict, Optional, Any, List, Union
+from utils.typing import Dict, Optional, Any, List, Union
 
 
 class DRLlibv2:

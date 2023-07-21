@@ -3,8 +3,8 @@ from __future__ import annotations
 import datetime
 import sys
 from pprint import pprint
-from typing import Tuple
-from typing import Union
+from utils.typing import Tuple
+from utils.typing import Union
 
 import hyperparams_opt as hpt
 import joblib

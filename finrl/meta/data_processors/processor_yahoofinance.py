@@ -5,13 +5,13 @@ import datetime
 from datetime import date
 from datetime import timedelta
 from sqlite3 import Timestamp
-from typing import Any
-from typing import Dict
-from typing import List
-from typing import Optional
-from typing import Type
-from typing import TypeVar
-from typing import Union
+from utils.typing import Any
+from utils.typing import Dict
+from utils.typing import List
+from utils.typing import Optional
+from utils.typing import Type
+from utils.typing import TypeVar
+from utils.typing import Union
 
 import exchange_calendars as tc
 import numpy as np

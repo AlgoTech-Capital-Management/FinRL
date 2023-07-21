@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import os
 from argparse import ArgumentParser
-from typing import List
+from utils.typing import List
 
 from finrl.config import ALPACA_API_BASE_URL
 from finrl.config import DATA_SAVE_DIR

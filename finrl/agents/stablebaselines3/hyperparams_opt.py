@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from typing import Any
-from typing import Dict
+from utils.typing import Any
+from utils.typing import Dict
 
 import numpy as np
 import optuna

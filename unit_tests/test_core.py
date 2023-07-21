@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import os
-from typing import List
+from utils.typing import List
 
 import pandas as pd
 import pytest
